@@ -1,0 +1,24 @@
+# C build artifacts
+*.o
+*.obj
+*.exe
+*.out
+*.log
+*.stackdump
+
+# Editor and build metadata
+.vscode/
+compile_commands.json
+
+# Backup / temp
+*~
+*.swp
+.DS_Store
+Thumbs.db
+
+# Python bytecode (for the python/ folder)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
