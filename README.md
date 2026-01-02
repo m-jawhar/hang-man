@@ -1,6 +1,6 @@
 # Hangman (C and Python)
 
-This repo will hold two Hangman implementations side by side:
+This repo holds two Hangman implementations side by side:
 
 - `c/` – C version
 - `python/` – Python version
@@ -23,14 +23,24 @@ gcc hangMan.c -o hangman
 
 ## Python version (in `python/`)
 
-I will later add my robust Python implementation under `python/` (e.g., `python/hangman.py`). A simple run command might be:
+A complete, object-oriented Python implementation with scoring, statistics tracking, and a clean command-line interface.
+
+Run the game:
 
 ```bash
+python python/hangman.py
+```
+
+Or navigate into the folder:
+
+```bash
+cd python
 python hangman.py
 ```
 
+See [python/README.md](./python/README.md) for full details.
+
 ## Repo notes
 
-- Keep language-specific files in their folders.
-- Add any per-language docs (e.g., `c/README.md`, `python/README.md`) if needed.
-- Use branch or PR workflows as usual; branches are for changes, not for separating the languages.
+- Kept language-specific files in their folders.
+- Added per-language docs (e.g., `c/README.md`, `python/README.md`) if needed.

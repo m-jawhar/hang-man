@@ -1,0 +1,13 @@
+# Hangman Game Requirements
+# This game uses only Python standard library modules
+# No external dependencies required
+
+# Python 3.6+ is required for:
+# - f-strings
+# - Type hints (if added in future)
+# - Set operations
+
+# Standard library modules used:
+# - random (word selection)
+# - os (screen clearing)
+# - time (display delays)
