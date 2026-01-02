@@ -15,7 +15,7 @@ A console-based hangman game written in C that demonstrates fundamental programm
 Compile with GCC:
 
 ```bash
-gcc hangMan.c -o hangman
+gcc hangman.c -o hangman
 ```
 
 Or with Make (if you add a Makefile):

@@ -10,14 +10,14 @@ This repo holds two Hangman implementations side by side:
 Build and run with GCC:
 
 ```bash
-gcc hangMan.c -o hangman
+gcc hangman.c -o hangman
 ./hangman
 ```
 
 On Windows PowerShell:
 
 ```powershell
-gcc hangMan.c -o hangman
+gcc hangman.c -o hangman
 ./hangman
 ```
 
